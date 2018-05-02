@@ -1,0 +1,55 @@
+.card{
+    color: red;
+    width: 150px;
+    height: 210px;
+    position: relative;
+    border: 1px solid #ccc;
+}
+
+.mana{
+    position: absolute;
+    left: -10px;
+    top: -10px;
+}
+.attack{
+    position: absolute;
+    left: -10px;
+    bottom: -10px;
+}
+.hp{
+    position: absolute;
+    right: -10px;
+    bottom: -10px;
+}
+
+.card-bg-container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-bg-wrapper{
+    width: 70%;
+    height: 100%;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.card-bg{
+    height: 100%;
+}
+
+.card-effect-container{
+    position: absolute;
+    /* top: 0; */
+    left: 0;
+    right: 0;
+    bottom: 0;
+    font-size: 12px;
+}
