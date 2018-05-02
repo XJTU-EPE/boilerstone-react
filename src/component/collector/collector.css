@@ -1,9 +1,17 @@
 .collector{
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
+}
 
+.collector-library-container{
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .collector-card-container{
-    padding: 20px;
+    padding: 15px;
+}
+
+.collector-cardgroup-container{
+    width: 200px;
 }

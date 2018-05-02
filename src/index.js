@@ -17,12 +17,12 @@ const collector = () => (
 ReactDOM.render((
     <BrowserRouter>
         <div>
-            <div>
+            {/* <div>
                 <ul>
                     <Link to="/">123</Link>
                     <Link to="/2">123</Link>
                 </ul>
-            </div>
+            </div> */}
             <Switch>
                 <Route exact path='/' component={collector} />
                 {/* <Route exact path='/2' component={card2} /> */}
