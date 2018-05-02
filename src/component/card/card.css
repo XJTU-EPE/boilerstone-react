@@ -10,16 +10,19 @@
     position: absolute;
     left: -10px;
     top: -10px;
+    z-index: 999;
 }
 .attack{
     position: absolute;
     left: -10px;
     bottom: -10px;
+    z-index: 999;
 }
 .hp{
     position: absolute;
     right: -10px;
     bottom: -10px;
+    z-index: 999;
 }
 
 .card-bg-container{

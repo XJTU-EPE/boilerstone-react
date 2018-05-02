@@ -1,0 +1,9 @@
+.collector{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.collector-card-container{
+    padding: 20px;
+}
